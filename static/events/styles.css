@@ -1,0 +1,229 @@
+.Container {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  border: 4px solid;
+  color: #E9C39C;
+}
+
+.bgLine {
+  color: white;
+  border: 10px solid #E9C39C;
+  border-radius: 100%;
+  display: inline-block;
+  padding: 20px;
+  height: 120vh;
+  width: 100vw;
+  transform: translateX(-0.5%) translateY(-65%);
+  text-align: center;
+  z-index: -1;
+  position: absolute;
+}
+
+.logo {
+  border: none !important;
+  height: 55px;
+  width: 135px;
+}
+
+.Container .centerImg {
+  align-items: flex-end;
+}
+
+.leftImg {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 200px 200px;
+}
+
+.centerImg {
+  height: 40vh;
+  width: 40vh;
+  border-radius: 200px 200px;
+  display: flex;
+  align-self: flex-end;
+}
+
+.rightImg {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 200px 200px;
+}
+
+.ending {
+  position: absolute;
+  bottom:0%;
+}
+
+.not {
+  position: relative;
+  bottom: 300px;
+  height: 300px !important;
+  width: 70px !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: none !important;
+  padding:30px !important;
+}
+
+button .rr {
+  float: right !important;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #414659;
+  color: white;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.navbar-toggler {
+  color: white !important;
+}
+
+li a {
+  color: white !important;
+  font-size: 1.1rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  position: relative;
+  bottom: 590px;
+  font-family: Red Hat Text;
+}
+
+.name {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 5px;
+}
+
+.content {
+  margin: 0 170px 50px 170px;
+  text-align: center;
+
+}
+
+.phone {
+  display: none;
+}
+
+
+
+
+.footer {
+  text-align: center;
+  margin-top: -150px;
+  border-top: 1px solid rgba(250, 250, 250, 0.15);
+  padding: 10px 0px;
+}
+.footer p {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+}
+.social-media{
+  margin: auto;
+  width: 50%;
+}
+.footer p a {
+  color: #f5a425;
+}
+.navbar img{
+  border:none;
+}
+.navbar{
+  background-color:transparent !important;
+  text-align:center !important;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  color:black !important;
+}
+
+@media only screen and (max-width: 995px) {
+  .laptop {
+    display: none;
+  }
+
+  .phone {
+    display: block;
+  }
+  body{
+    color:black !important;
+  }
+  .btn{
+    display:inline-block;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .card{
+    margin-top: 15px;
+    margin-bottom:30px;
+    border-radius: 15px;
+    border: 6px solid;
+    border-color: #E9C39C;
+    text-align: center;
+    height:690px;
+
+  }
+  .card-img-top{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border:none;
+
+  }
+  .heading {
+    text-align: center;
+    font-size: 3.5rem;
+    position: static;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-family: Red Hat Text;
+    color: white;
+  }
+  .footer {
+
+    margin-top: 50px !important;
+
+  }
+  .carousel-control-next-icon , .carousel-control-prev-icon{
+    background-color:Black !important;
+  }
+
+}
+
+@media only screen and (min-width: 955px){
+  .heading{
+    position:absolute;
+    top: 30%;
+    left:37%;
+  }
+  .ending{
+    text-align: center;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 1440px){
+  .heading{
+    bottom: 800px;
+  }
+  .name{
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+
+}
