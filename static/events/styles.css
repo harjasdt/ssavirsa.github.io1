@@ -58,7 +58,7 @@ img {
 
 .ending {
   position: absolute;
-  bottom:0%;
+  top:80%;
 }
 
 .not {
@@ -224,6 +224,10 @@ li a {
   .name{
     margin-top: 100px;
     margin-bottom: 10px;
+  }
+  .ending {
+    position: absolute;
+    top:70%;
   }
 
 }
