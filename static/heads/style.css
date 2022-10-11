@@ -1,3 +1,17 @@
+.phone-only{
+  display:none !important;
+}
+.pc-only{
+  display: block !important;
+}
+@media only screen and (max-width: 520px) {
+  .phone-only{
+    display:block !important;
+  }
+  .pc-only{
+    display: none !important;
+  }
+}
 .team {
     text-align: center;
     color: #fff;
@@ -210,5 +224,3 @@ button{
     line-height: 47px;
     transition: 1s;
 }
-
- 
