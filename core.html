@@ -1,408 +1,739 @@
-{% load static %}
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team</title>
-    <!-- CSS -->
-<link rel="stylesheet" href="static/core/style.css">
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-
+    <title>VIRSA </title>
     <link rel="stylesheet" href="static/core/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <style>
-        .top{
-          padding-top:20px;
-          
-        }
-      </style>
-      <nav id="p2" class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <nav id="p2" class="navbar navbar-expand-lg navbar-dark  sticky-top">
         <div class="container-fluid">
           <a href="home" class="logo">
-            <img style="width: 120px;" src="static/./assets/logo.png">
+            <img style="width: 120px;" src="https://imagizer.imageshack.com/img923/9454/BUTnYN.png">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="home">Home</a>
+                <a class="nav-link " aria-current="page" href="https://ssa-virsa.herokuapp.com/"><button class="btn btn-warning" type="button">Second Year Recruitment</button></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gallery">Gallery</a>
+                <a class="nav-link " aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/main_events">Events</a>
+                <a class="nav-link " href="gallery">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="home#contact">Contact Us</a>
+                <a class="nav-link " href="main">Events</a>
               </li>
-              <li class="nav-item  active dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Team
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="heads">Heads</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="core">Core</a></li>
-                </ul>
+              <li class="nav-item " >
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">TEAM</a>
+                  </li> -->
+                  <li class="nav-item dropdown active ">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Team
+                    </a>
+                    <ul class="dropdown-menu bg-black  ">
+                      <li><a class="dropdown-item text-white" href="heads">HEADS</a></li>
+                      <li><a class="dropdown-item text-white active"  href="core">CORE</a></li>
+
+
+                    </ul>
+                  </li>
+
               </li>
             </ul>
-    
+
+
           </div>
         </div>
       </nav>
-        <!-- *****************************CORE**************************** -->
-        
-        <h1 class="top">CORE</h1>
-        <div class="container">
-            <div class="circle">
-                <div class="shape">
-                    <img src="https://i.imgur.com/4rmZsug.jpg" alt="" style="height: 367px; width:227px;">
-                </div>
-                <div class="content">
-                    <div class="contentbx">
-                        <p>Amiteshwar Singh</p><br>
-                    </div>
-                </div>
-            </div>
-            <div class="circle">
-                <div class="shape">
-                    <img src="https://i.imgur.com/4Jt3xnO.jpg?1" alt="" style="height: 277px; width:350px;">
-                </div>
-                <div class="content">
-                    <div class="contentbx">
-                        <p>Anoop Kaur</p><br>
-                    </div>
-                </div>
-            </div>
-            <div class="circle">
-                <div class="shape">
-                    <img src="https://i.imgur.com/k5D9fZP.jpg" alt="" style="height: 440px; ">
-                </div>
-                <div class="content">
-                    <div class="contentbx">
-                        <p>Anshika Bansal</p><br>
-                    </div>
-                </div>
-            </div>
-            <div class="circle">
-                <div class="shape">
-                    <img src="https://i.imgur.com/IVk1giO.jpg?1" alt="" style="height: 335px;">
-                </div>
-                <div class="content">
-                    <div class="contentbx">
-                        <p>Armaan Singh Dhaliwal</p><br>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="circle">
-                    <div class="shape">
-                        <img src="https://i.imgur.com/feRyFsR.jpg?1" alt="" style="height: 340px;">
-                    </div>
-                    <div class="content">
-                        <div class="contentbx">
-                            <p>Gantavya Gulati</p><br>
+    <div class="team">
+        <h1> CORE </h1>
+        <div class="content">
+
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/4926/4km4YR.jpg">
+                    <div class="info">
+                        <div class="name">AASHI MEHTA</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/aashimehta10 "><i class="fa-brands fa-instagram"></i></a>
+
                         </div>
                     </div>
                 </div>
-                <div class="circle">
-                    <div class="shape">
-                        <img src="https://i.imgur.com/PZP06MM.jpg" alt="" style="height: 375px;">
-                    </div>
-                    <div class="content">
-                        <div class="contentbx">
-                            <p>Gurpartap Singh Sidhu</p><br>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">AISHWARYA </div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="circle">
-                    <div class="shape">
-                        <img src="https://i.imgur.com/929lLcU.jpg?1" alt="" style="height: 370px;">
-                    </div>
-                    <div class="content">
-                        <div class="contentbx">
-                            <p>Harjaspreet Singh Wadhwa</p><br>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img924/4395/hJy2vY.png">
+                    <div class="info">
+                        <div class="name">AMITESHWAR</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/amiteshwar.51/"><i class="fa-brands fa-instagram"></i></a>
+
                         </div>
                     </div>
                 </div>
-                <div class="circle">
-                    <div class="shape" style=" text-align:center; ">
-                        <img src="https://i.imgur.com/biDbxzK.jpg?2" alt="" style="height: 380px; width:278px;">
-                    </div>
-                    <div class="content">
-                        <div class="contentbx">
-                            <p>Harshita Jaswani</p><br>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img923/4995/V8VDWD.jpg">
+                    <div class="info">
+                        <div class="name">ANJANII MOHIL</div>
+
+                        <div class="social">
+                            <a href="https://github.com/anjaanii"><i class="fa-brands fa-Github"></i></a>
+                            <a href="http://instagram.com/anjaniimohil"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/anjanii-mohil-38280a227/"><i class="fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">ARPITA</div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/v2/1280x1024q90/922/81GYzu.jpg">
+                    <div class="info">
+                        <div class="name">ASHMANDEEP</div>
+
+                        <div class="social">
+                            <a href="https://github.com/AshmanMusaafir"><i class="fa-brands fa-Github"></i></a>
+                            <a href=" https://instagram.com/ashman_423?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/ashman-singh-a9a613226"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img924/1853/ozgYG8.jpg">
+                    <div class="info">
+                        <div class="name">AVNOOR KAUR</div>
+
+                        <div class="social">
+                            <a href="https://www.snapchat.com/add/noor.kaur230?share_id=mw2HkNOKBKA&locale=en-GB"><i class="fa-brands fa-Snapchat"></i></a>
+                            <a href="https://www.instagram.com/Noor.kaur230/"><i class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">BHOOMIKA</div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img924/3444/j601HI.jpg">
+                    <div class="info">
+                        <div class="name">BOWNEETPAL</div>
+
+                        <div class="social">
+                            <a href="https://www.facebook.com/bowneet.singh"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/bowneet_pal_singh/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/bowneet-pal-singh-554491250"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/6551/Ua4Byf.jpg"/>
+                    <div class="info">
+                        <div class="name">CHANDAN</div>
+
+                        <div class="social">
+                            <a href="https://github.com/Chandankawatra123"><i class="fa-brands fa-Github"></i></a>
+                            <a href="https://www.instagram.com/chandan_.123/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.snapchat.com/add/ckawatra80?share_id=RTQwMDg2MTUtQUQwNC00MkJBLUJCNTYtNkY0MTVEQjYxREU2&locale=en_IN"><i class="fa-brands fa-snapchat"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/4723/Dch80G.jpg">
+                    <div class="info">
+                        <div class="name">DEVANSHU</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/devanshu_pb22/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href=" https://www.snapchat.com/add/devanshu2612?share_id=cTybr66h81A&locale=en-US"><i class="fa-brands fa-snapchat"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/9530/1Dy0SV.jpg">
+                    <div class="info">
+                        <div class="name">DIVYAJOT SAPRA</div>
+
+                        <div class="social">
+                            <a href="https://github.com/Divyajot70"><i class="fa-brands fa-Github"></i></a>
+                            <a href="https://www.instagram.com/divyajotsapra/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/divyajot-sapra"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img923/4076/j4brE6.jpg">
+                    <div class="info">
+                        <div class="name">GAGAN GOYAL</div>
+
+                        <div class="social">
+                            <a href="https://github.com/GaganGoyal2003"><i class="fa-brands fa-Github"></i></a>
+                            <a href="https://instagram.com/gagangoyal2003?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/gagan-goyal-48a077253"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/9595/r4RsXr.jpg">
+                    <div class="info">
+                        <div class="name">GURPREET</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/gurpreet_singh_2021"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/gurpreet-singh-b89088253"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">HARGUNPREET</div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">HARMAN KHURMI</div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+
+                    <img src="https://imagizer.imageshack.com/img923/2281/7Xxswe.jpg">
+                    <div class="info">
+                        <div class="name">HARMANDIP</div>
+
+                        <div class="social">
+                            <a href="https://github.com/Harmandip123"><i class="fa-brands fa-Github"></i></a>
+                            <a href="http://instagram.com/harman2003_"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/harmandip-singh-239305239"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img923/6162/hK6xP2.jpg">
+                    <div class="info">
+                        <div class="name">HARNEET KAUR</div>
+
+                        <div class="social">
+                            <a href="https://github.com/harneet3637"><i class="fa-brands fa-Github"></i></a>
+
+                            <a href="https://www.linkedin.com/in/harneet-kaur-68bb64228"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/4373/Wh34Kn.jpg">
+                    <div class="info">
+                        <div class="name">JAGVEER SINGH</div>
+
+                        <div class="social">
+                            <a href="https://github.com/Jagveer-singh"><i class="fa-brands fa-Github"></i></a>
+                            <a href="https://www.instagram.com/jagveer_.singh/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/jagveer-singh-82b05a227"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">JAPJOT SINGH</div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">KHUSHI</div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/1552/KVRJbJ.jpg">
+                    <div class="info">
+                        <div class="name">KHUSHPREET</div>
+
+                        <div class="social">
+                            <a href="https://github.com/Khushpreet-gill"><i class="fa-brands fa-Github"></i></a>
+                            <a href="https://instagram.com/khushhpreet_gill?r=nametag"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/khushpreet-gill-953083253"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img923/4857/w2VwvJ.jpg">
+                    <div class="info">
+                        <div class="name">KIRTVEER KAUR</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/Kirtveer_kharoud/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/kirtveer-kaur-kharoud-992ba3212"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img923/9499/hksoDb.jpg">
+                    <div class="info">
+                        <div class="name">LAGAN SINGLA</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/Lagan_singla11/"><i class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/7580/mFH961.jpg">
+                    <div class="info">
+                        <div class="name">LOVENEET KAUR</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/lavii__78/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/loveneet-maan-480104234"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">MANDEEP SINGH</div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">MANMEET KAUR</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/zobbs.070/"><i class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/5416/qCbP4d.jpg">
+                    <div class="info">
+                        <div class="name">MANVIR KAUR</div>
+
+                        <div class="social">
+                            <a href="https://github.com/manvir19"><i class="fa-brands fa-Github"></i></a>
+                            <a href="https://www.instagram.com/manvirkaur_19/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/manvir-kaur-3a5a4b232"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img923/6452/Rn66NG.jpg">
+                    <div class="info">
+                        <div class="name">PAHULJOT SINGH</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/_pahul16/"><i class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/5366/a4h4Vj.jpg">
+                    <div class="info">
+                        <div class="name">PALAK</div>
+
+                        <div class="social">
+                            <a href="https://github.com/palakga-rg"><i class="fa-brands fa-Github"></i></a>
+                            <a href="https://www.instagram.com/__palakgarg_/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/palak-garg-5862a3223/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/4443/XbeH8Y.jpg">
+                    <div class="info">
+                        <div class="name">PARASINDER</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/_paras_toor/"><i class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img924/6237/W4T2Yl.jpg">
+                    <div class="info">
+                        <div class="name">PRADEEP</div>
+
+                        <div class="social">
+                            <a href="https://www.facebook.com/pardeep.singal.54"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://instagram.com/iam__ps_?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/pradeepsinghal"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img923/3118/SFvTpU.jpg">
+                    <div class="info">
+                        <div class="name">PUSHKAL DEVGAN</div>
+
+                        <div class="social">
+                            <a href="https://www.facebook.com/profile.php?id=100078008445291"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/devgan2003/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/pushkal-devgan-74a2501b7"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">RAJVIR SINGH</div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img923/3196/JkUjaw.jpg">
+                    <div class="info">
+                        <div class="name">RAVNISH GUPTA</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/ravnish_18/"><i class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img924/9696/buhi57.jpg">
+                    <div class="info">
+                        <div class="name">RIDHI THAKUR</div>
+
+                        <div class="social">
+                            <a href="https://github.com/Ridhithakur126/ridhi-thakur.github.io"><i class="fa-brands fa-Github"></i></a>
+                            <a href="https://www.instagram.com/_ridhii_thakur_/?igshid=YmMyMTA2M2Y%3D"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/ridhi-thakur-175b12190"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img924/3313/MAglXM.jpg">
+                    <div class="info">
+                        <div class="name">SARABDEEP SINGH</div>
+
+                        <div class="social">
+                            <a href="https://www.facebook.com/noor.raikhi"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/_sarab03__/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sarabdeep-singh-266984217"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/9725/9G9SAt.jpg">
+                    <div class="info">
+                        <div class="name">SIMRAN KAUR</div>
+
+                        <div class="social">
+                            <a href="https://github.com/Simrankaur2601/Simrankaur2601"><i class="fa-brands fa-Github"></i></a>
+                            <a href="https://instagram.com/simrankaursimu_?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/simran-kaur-645a9322a"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/4904/g8YPaG.jpg">
+                    <div class="info">
+                        <div class="name">SUKHMANJOT</div>
+
+                        <div class="social">
+
+                            <a href="https://www.instagram.com/sukhmanjot1411/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sukhmanjot-kaur-227702231"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="box">
+
+                    <img src="https://imagizer.imageshack.com/img922/8818/crmI7r.jpg">
+                    <div class="info">
+                        <div class="name">VARNINDERPREET</div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
-        <div class="container">
-            <div class="circle">
-                <div class="shape">
-                    <img src="https://i.imgur.com/NyqKhWO.jpg" alt="" style="height: 387px;">
-                </div>
-                <div class="content">
-                    <div class="contentbx">
-                        <p>Himani Kharbanda</p><br>
-                    </div>
-                </div>
-            </div>
-            <div class="circle">
-                <div class="shape">
-                    <img src="https://i.imgur.com/RGj33JL.jpg?1" alt="" style="height: 400px; width:280px;">
-                </div>
-                <div class="content">
-                    <div class="contentbx">
-                        <p>Ivneet Kaur</p><br>
-                    </div>
-                </div>
-            </div>
-            <div class="circle">
-                <div class="shape">
-                    <img src="https://i.imgur.com/WuSEJi0.jpg?1" alt="" style="height: 390px;">
-                </div>
-                <div class="content">
-                    <div class="contentbx">
-                        <p>Jashan Sidhu</p><br>
-                    </div>
-                </div>
-            </div>
-            <div class="circle">
-                <div class="shape">
-                    <img src="https://i.imgur.com/oKwKu6j.jpg?1" alt="" style="height: 395px;">
-                </div>
-                <div class="content">
-                    <div class="contentbx">
-                        <p>Jaskirat Singh</p><br>
-                    </div>
-                </div>
-            </div>
+
     </div>
-    <div class="container">
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/h9iydMG.jpg" alt="" style="height: 420px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Karamveer Singh</p><br>
-                </div>
-            </div>
+    <hr class="h">
+    <div class="footer">
+        <div class="social-media content">
+          <a data-aos="zoom-in" class="btn btn-lg" style="background-color: transparent; color:white; font-size: 35px"
+          href="https://www.facebook.com/VirsaTIET/"role="button"><i class="fa-brands fa-facebook-f"></i>
+          <a data-aos="zoom-in"
+          class="btn"
+          style="background-color: transparent; color:white; font-size: 35px "
+          href="https://www.instagram.com/virsa.thapar"
+          role="button">
+          <i class="fa-brands fa-instagram"></i>
+          <a data-aos="zoom-in"
+          class="btn"
+          style="background-color: transparent; color:white; font-size: 35px  "
+          href="https://www.linkedin.com/company/ssa-virsa/"
+          role="button"
+          ><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
-        <div class="circle">
-            <div class="shape" style="text-align:center;">
-                <img src="https://i.imgur.com/NTJDnfE.jpg?1" alt="" style="  height: 380px; width:300px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Keshav</p><br>
-                </div>
-            </div>
+
+
+          <p style="background-color: transparent; color:white ">Virsa © 2022  <br>Coded with ❤️ BY VIRSA TEAM
+
+
+          </p>
         </div>
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/TFe4CMO.jpg" alt="" style="height: 380px; ">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Madhvan Jindal</p><br>
-                </div>
-            </div>
-        </div>
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/AuKs2Yi.jpg?1" alt="" style="height: 410px; width: 295px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Maninderpal Singh</p><br>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="container">
-           
-            <div class="circle">
-                <div class="shape">
-                    <img src="https://i.imgur.com/KqO19Gv.jpg?2" alt="" style="height: 556px;">
-                </div>
-                <div class="content">
-                    <div class="contentbx">
-                        <p>Martin Kaushal</p><br>
-                    </div>
-                </div>
-            </div>
-          
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/KDBQVNq.jpg" alt="" style="height: 335px; width:300px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Muskanpreet Kaur</p><br>
-                </div>
-            </div>
-        </div>
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/maHMQZb.jpg?1" alt="" style="height: 360px; width: 280px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Nandini Setia</p><br>
-                </div>
-            </div>
-        </div>
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/FYyFMBJ.jpg?1" alt="" style="height: 320px; width:315px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Nitanshu Sharma</p><br>
-                </div>
-            </div>
-        </div>
-       </div>
-       <div class="container">
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/y7KnuG0.jpg" alt="" style="height: 320px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Parampreet Kaur</p><br>
-                </div>
-            </div>
-        </div>
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/FS7JzAv.png?1" alt="" style="height: 315px; width:280px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Prabhjot Singh Bhatia</p><br>
-                </div>
-            </div>
-        </div>
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/ZmXZnLe.jpg" alt="" style="height: 357px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Puneet Kaur</p><br>
-                </div>
-            </div>
-        </div>
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/hGhaIoH.jpg?1" alt="" style="height: 400px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Rohan Sachdeva</p><br>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="container">
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/Zj21vQz.jpg?1" alt="" style="height: 340px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Safreen Kaur</p><br>
-                </div>
-            </div>
-        </div>
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/KBfIETB.jpg?1" alt="" style="height: 400px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Samarjot Singh Saini</p><br>
-                </div>
-            </div>
-        </div>
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/k6Y0Fnc.jpg" alt="" style="height: 495px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Sehroop Kaur Babrah</p><br>
-                </div>
-            </div>
-        </div>
-        <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/Bgab4MD.jpg?1" alt="" style="height: 415px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Shagun Vohra</p><br>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="container">
-        <div class="circle" style="color: black;">
-            <div class="shape"> 
-                <img src="https://i.imgur.com/e2KERah.jpg?1" alt="" style="height: 339px;">
-            </div>
-            <div class="content"> 
-                <div class="contentbx">
-                    <p>Sparshjot Singh</p><br>
-                </div>
-            </div>
-         </div> 
-         <div class="circle">
-            <div class="shape">
-                <img src="https://i.imgur.com/QzAZ2oi.jpg" alt="" style="height: 380px;">
-            </div>
-            <div class="content">
-                <div class="contentbx">
-                    <p>Sukhmanpreet Kaur Mann</p><br>
-                </div>
-            </div>
-        </div>
-        <div class="circle">
-            <div class="shape" >
-                <img src="https://i.imgur.com/fYUD0ze.jpg?1" alt="" style="height: 310px; width:330px;">
-         </div> 
-            <div class="content">
-                <div class="contentbx">
-                    <p>Yuvraj Singh</p><br>
-                </div>
-            </div>
-        </div>
-</div>
-    </section>
-     <script src="static/vendor/jquery/jquery.min.js"></script>
-    <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>

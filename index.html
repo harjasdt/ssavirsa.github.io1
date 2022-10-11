@@ -18,34 +18,60 @@
     <link rel="stylesheet" href="static/assets/css/owl.css">
     <link rel="stylesheet" href="static/assets/css/lightbox.css">
   </head>
+<style media="screen">
+  nav{
+    background: black !important;
+    opacity:1 !important;
+  }
+</style>
 <body>
-  <nav id="p2" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid">
-      <a href="home" class="logo">
-        <img style="width: 120px;" src="static/./assets/logo.png">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="gallery">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="main">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="heads">Team</a>
-          </li>
-        </ul>
+  <nav id="p2" class="navbar navbar-expand-lg navbar-dark  sticky-top">
+      <div class="container-fluid">
+        <a href="home" class="logo">
+          <img style="width: 120px;" src="https://imagizer.imageshack.com/img923/9454/BUTnYN.png">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item kk" >
+              <a class="nav-link " aria-current="page" href="https://ssa-virsa.herokuapp.com/"><button class="btn btn-warning" type="button">Second Year Recruitment</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="main">Events</a>
+            </li>
+            <li class="nav-item " >
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">TEAM</a>
+                </li> -->
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Team
+                  </a>
+                  <ul class="dropdown-menu bg-black  ">
+                    <li><a class="dropdown-item text-white" href="heads">HEADS</a></li>
+                    <li><a class="dropdown-item text-white"  href="core">CORE</a></li>
+
+
+                  </ul>
+                </li>
+
+            </li>
+          </ul>
+
+
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   <!-- ***** Main video Area Start ***** -->
   <section class="section main-banner" id="home" data-section="section1">
       <video autoplay muted loop id="bg-video">
