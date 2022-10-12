@@ -23,9 +23,24 @@
     background: black !important;
     opacity:1 !important;
   }
+  .imp{
+    padding-top: 100px;
+    border:none !important;
+    text-align: center;
+    display: none;
+  }
+  @media only screen and (max-width: 1000px) {
+    .imp {
+      display: block !important;
+    }
+  }
 </style>
 <body>
+  <div class="alert alert-warning imp" role="alert">
+    <a class="nav-link " aria-current="page" href="https://ssa-virsa.herokuapp.com/"><button class="btn btn-warning" type="button">Second Year Recruitment</button></a>
+  </div>
   <nav id="p2" class="navbar navbar-expand-lg navbar-dark  sticky-top">
+    
       <div class="container-fluid">
         <a href="/" class="logo">
           <img style="width: 120px;" src="https://imagizer.imageshack.com/img923/9454/BUTnYN.png">
@@ -72,6 +87,8 @@
         </div>
       </div>
     </nav>
+
+    
   <!-- ***** Main video Area Start ***** -->
   <section class="section main-banner" id="home" data-section="section1">
       <video autoplay muted loop id="bg-video">
